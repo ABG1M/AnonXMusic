@@ -192,7 +192,9 @@ async def start_comm(client, message: Message, _):
                 return await app.send_message(
                     config.LOG_GROUP_ID,
                     f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ʙᴏᴛ ᴛᴏ ᴄʜᴇᴄᴋ <code>ᴛʀᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</code>\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** {sender_name}",
+  
                 )
+"""              
     else:
         try:
             await app.resolve_peer(OWNER_ID[0])
@@ -246,7 +248,7 @@ async def testbot(client, message: Message, _):
         ),
         reply_markup=InlineKeyboardMarkup(out),
     )
-
+"""
 
 welcome_group = 2
 
