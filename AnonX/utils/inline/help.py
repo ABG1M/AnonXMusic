@@ -11,11 +11,11 @@ def help_pannel(_, START: Union[bool, int] = None):
     ]
     second = [
         InlineKeyboardButton(
-            text=_["BACK_BUTTON"],
+            text="ʜᴏᴍᴇ 🏡",
             callback_data=f"start_back",
         ),
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+            text="ʙᴀᴄᴋ 🔙", callback_data=f"HELP_TWO"
         ),
     ]
     mark = second if START else first
