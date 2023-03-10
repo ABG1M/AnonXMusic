@@ -1,7 +1,7 @@
 PING_COMMAND : ["mping", "alive"]
 START_COMMAND : ["start", "mstart"]
 HELP_COMMAND : ["helpm"]
-SETTINGS_COMMAND : ["settings", "setting"]
+SETTINGS_COMMAND : ["msettings", "msetting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats", "globalstats"]
 STATS_COMMAND : ["stats"]
