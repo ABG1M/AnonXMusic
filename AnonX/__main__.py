@@ -72,6 +72,7 @@ async def init():
 
 
 if __name__ == "__main__":
-    uvloop.install() 
+     
     loop.run_until_complete(init())
+    uvloop.install()
     LOGGER("AnonX").info("Stopping Music Bot...")
