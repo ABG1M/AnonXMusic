@@ -4,7 +4,7 @@ import sys
 
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
-
+import uvloop
 import config
 from config import BANNED_USERS
 from AnonX import LOGGER, app, userbot
@@ -72,5 +72,6 @@ async def init():
 
 
 if __name__ == "__main__":
+    uvloop.install() 
     loop.run_until_complete(init())
     LOGGER("AnonX").info("Stopping Music Bot...")
